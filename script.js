@@ -39,14 +39,14 @@ function submitForm() {
     // Display submitted data in the popup
     let submittedDataDiv = document.getElementById('submittedData');
     submittedDataDiv.innerHTML = `
-        <strong>First Name:</strong> ${firstName}<br>
-        <strong>Last Name:</strong> ${lastName}<br>
-        <strong>Date of Birth:</strong> ${dob}<br>
-        <strong>Country:</strong> ${country}<br>
-        <strong>Gender:</strong> ${gender.value}<br>
-        <strong>Profession:</strong> ${profession}<br>
-        <strong>Email:</strong> ${email}<br>
-        <strong>Mobile Number:</strong> ${mobileNumber}
+        First Name:${firstName}<br>
+        Last Name: ${lastName}<br>
+        Date of Birth: ${dob}<br>
+        Country: ${country}<br>
+        Gender: ${gender.value}<br>
+        Profession: ${profession}<br>
+        Email: ${email}<br>
+       Mobile Number: ${mobileNumber}
     `;
 
     // Display the popup

@@ -1,11 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+
     display: flex;
     justify-content: space-around;
     align-items: stretch;
     height: 100vh;
     margin: 0;
-    background-color: #3498db;
+    background-color: #3490db;
     align-content: space-around;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -53,6 +53,7 @@ body {
     /* text-align: center; */
     position: relative;
     font-size: 20px;
+    
 }
 
 .close {
